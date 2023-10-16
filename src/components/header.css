@@ -1,0 +1,51 @@
+
+.header{    
+    max-width: 100%;  
+    background-color: #002879;
+  }
+  
+  .logo{
+
+    width: 350px;
+    height: 330px;
+  }
+  
+  .nav{
+  display: flex;
+  /* justify-content: space-between; */
+  color: white;
+  align-items: center;
+  }
+  
+  .nav-links{
+    flex:2;
+    text-align: left;
+  }
+  
+  .nav-links ul{
+    display: inline-block;
+    position: relative;
+
+  }
+
+  .nav-links ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    
+  }
+
+  @media(max-width: 900px){
+    .header{
+      max-width: 100%;
+    }
+
+    .nav-links ul a{
+      font-size: 18px;
+    }
+
+    .logo{
+      width: 200px;
+      height:200px;
+    }
+  }

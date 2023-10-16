@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    font-weight: 600;
+    box-sizing: border-box;
+  }
+
+  .app-container{
+    background-color: #002879;
+  
+  }
+.heading{
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: aliceblue;
+    border-width: thick;
+    border-style: solid;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    overflow:hidden;
+
+    
+}
+
+.heading img{
+    padding-top: 40px;
+    width: 700px;
+    height: 700px;
+
+}
+.heading h3{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    text-align: center
+}
+
+.pced-section h3{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: justify
+
+}
+
+
+.team{
+    background-color: rgba(0, 0, 0, 0.507);
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.team img{
+    width: 200px;
+    height:200px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+   
+
+}
+
+.title{
+    margin-bottom: 50px;
+    font-size:55px;
+}
+.team h1 {
+ font-size: 40px;
+ margin-bottom: 30px;
+
+
+}
+
+.rowss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 90px;
+
+}
+
+.companies{
+    color:black;
+    background-color: white;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    justify-content: center; 
+
+}
+
+.companies h1{
+    padding-top:30px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+
+.nationalgrid{
+    width: 300px;
+    height: 200px;
+
+}
+
+.stem{
+    width: 400px;
+    height: 250px;
+}
+
+.sodexo{
+    width: 200px;
+    height: 200px;
+
+}
+
+.turner {
+    width: 200px;
+    height: 100px;
+ 
+
+}
+
+.ww{
+    width: 250px;
+    height: 200px;
+}
+
+.nutanix{
+    width: 280px;
+    height: 100px;
+
+}
+
+.verizon{
+    width: 200px;
+    height: 120px; 
+}
+
+.shpe2{
+    width: 300px;
+    height: 150px;
+  
+}
+
+.progist {
+    width: 500px;
+    height: 200px;
+     
+}
+
+.hla{
+    width: 250px;
+    height: 250px;
+}
+
+.row-pced{
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 60px;
+  }
+
+
+ @media(max-width: 800px){
+
+    .heading{
+   
+            margin-left: 50px;
+            margin-right: 50px;
+            font-size: 15px;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 30px;              
+    }
+
+    .heading img{
+        width:500px;
+        height: 500px;
+        padding-top: 40px;
+
+    
+    }
+    .heading h3{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        text-align:start;
+        font-size:20px;
+    }
+
+    .nationalgrid{
+        width: 150px;
+        height: 150px;
+    
+    }
+    
+    .stem{
+        width: 200px;
+        height: 150px;
+    }
+    
+    .sodexo{
+        width: 200px;
+        height: 100px;
+    
+    }
+    
+    .turner {
+        width: 200px;
+        height: 50px;
+     
+    
+    }
+    
+    .ww{
+        width: 150px;
+        height: 100px;
+    }
+    
+    
+    .verizon{
+        width: 200px;
+        height: 100px; 
+    }
+    
+    .shpe2{
+        width: 200px;
+        height: 100px;
+      
+    }
+    .nutanix{
+        width: 180px;
+        height: 70px;
+    
+    }
+    
+    .progist {
+        width: 300px;
+        height: 100px;
+         
+    }
+    
+    .hla{
+        width: 150px;
+        height: 150px;
+    }
+
+    .team img{
+        width: 130px;
+        height: 130px;
+    }
+ }

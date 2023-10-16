@@ -1,13 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PCED from './Pages/pced';
+import Membership from './Pages/membership';
+import Eboard from './Pages/eboard';
+import Calendar from './Pages/calendar';
 import reportWebVitals from './reportWebVitals';
+import Home from './Home';
+import Navbar from './components/header';
+import Footer from './components/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <BrowserRouter>
+   <header className='header'>
+        <Navbar/>
+      </header>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/PCED" element={<PCED/>}/>
+        <Route path="/Membership" element={<Membership/>} />
+        <Route path="/Eboard" element={<Eboard/>} />
+        <Route path='/Calendar' element={<Calendar/>}/>
+   </Routes>
+   <Footer/>
+ </BrowserRouter>
   </React.StrictMode>
 );
 

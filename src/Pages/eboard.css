@@ -1,0 +1,187 @@
+
+
+.title1{
+    padding-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);;
+}
+
+.eboard-2023{
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-style: ridge;
+    border-color: rgb(225, 225, 225);
+    border-width: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.rows img{
+    border-color:  rgb(8, 28, 94);
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+
+}
+
+.position{
+    color:  rgb(14, 14, 98);
+    width: 250px;
+    justify-content: center;
+}
+
+.cols{
+    color: rgb(0, 0, 0);;
+    flex: 50%;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.hallOfFame{
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: rgb(5, 8, 52);
+}
+
+.title2{
+    font-size: 60px;
+    color: white;
+    padding-top: 90px;
+    margin-bottom: 90px;
+}
+
+.rowsss{
+    padding-top: 60px;
+    padding-bottom:60px;
+    margin-left:100px;
+    margin-right:100px;
+    padding-left:40px;
+    padding-right:40px;
+    box-sizing: border-box;
+    border-style: ridge;
+    border-color: hsla(46, 89%, 36%, 0.968);
+    border-width: 30px;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 80px;
+    background-color: rgba(192, 170, 28, 0.759);
+
+}
+
+.rowsss img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.rowsss h1{
+    color: rgb(0, 0, 63);
+}
+
+@media(max-width: 1000px){
+    .cols{
+        font-size: 15px;
+    }
+
+    .rows img{
+    
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    
+    }
+    .rowsss img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .rowsss{
+        font-size: 12px;
+    }
+
+   
+
+
+}
+
+@media(max-width: 800px){
+   
+    .rows img{
+        width: 250px;
+        height: 250px;    
+    }
+
+    .position h1{
+       font-size: 25px;
+    }
+    /* .rowsss{
+        font-size: 10px;
+        margin-left:30px;
+        margin-right:30px;
+        padding-left:10px;
+        padding-right:10px;
+        gap: 10px;
+
+    } */
+ 
+
+   
+
+
+}
+
+@media(max-width: 600px){
+    .cols{
+       font-size: 13px;
+    }
+
+    .eboard-2023{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+   
+
+    }
+/* 
+    .rowsss{
+        font-size: 10px;
+        margin-left:20px;
+        margin-right:20px;
+        padding-left:10px;
+        padding-right:10px;
+        gap: 1rem;
+        
+
+    } */
+
+  
+
+
+}
