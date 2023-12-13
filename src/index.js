@@ -5,6 +5,7 @@ import PCED from './Pages/pced';
 import Membership from './Pages/membership';
 import Eboard from './Pages/eboard';
 import Calendar from './Pages/calendar';
+import DonationPage from './Pages/DonationPage';
 import reportWebVitals from './reportWebVitals';
 import Home from './Home';
 import Navbar from './components/header';
@@ -23,6 +24,8 @@ root.render(
         <Route path="/Membership" element={<Membership/>} />
         <Route path="/Eboard" element={<Eboard/>} />
         <Route path='/Calendar' element={<Calendar/>}/>
+        <Route path='/Donate' element={<DonationPage/>}/>
+
    </Routes>
    <Footer/>
  </BrowserRouter>
