@@ -1,7 +1,9 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
+import { getStorage } from "firebase/storage";
+import { getDatabase, ref, set, get, child } from "firebase/database";
+
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -19,6 +21,22 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const auth = getAuth(app);
+const database = getDatabase(app);
+
+export const auth = getAuth(app);
+export const storage = getStorage(app);
+
+
+//MIGHT NOT NEED THIS FUNCTION?
+// export async function getUserName(uid) {
+//   console.log(uid)
+//   const collectionRef = collection(firestore, 'users');
+//   const q = query(collectionRef, where('userId', '==', uid))
+//   const document = await getDocs(q)
+//   console.log(document.docs[0].data().hasCompletedSurvey)
+//   return document.docs[0].data().hasCompletedSurvey
+// }
+
+
