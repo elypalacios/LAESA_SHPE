@@ -14,6 +14,7 @@ function Navbar(){
             <ul> <Link to='Membership'> Membership </Link></ul>
             <ul> <Link to='Eboard'> Eboard </Link></ul>
             <ul> <Link to='Calendar'> Calendar </Link></ul>
+            <ul> <Link to='Login'> Login </Link></ul>
    
             </div>
   

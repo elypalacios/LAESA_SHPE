@@ -9,10 +9,16 @@ import reportWebVitals from './reportWebVitals';
 import Home from './Home';
 import Navbar from './components/header';
 import Footer from './components/footer';
+import Login from './Pages/login';
+import Profile from './Pages/userProfile';
+import SignUp from './Pages/signup';
+import { UserProvider } from './Pages/userContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
+ <UserProvider>
    <BrowserRouter>
    <header className='header'>
         <Navbar/>
@@ -23,13 +29,17 @@ root.render(
         <Route path="/Membership" element={<Membership/>} />
         <Route path="/Eboard" element={<Eboard/>} />
         <Route path='/Calendar' element={<Calendar/>}/>
+        <Route path= "/Login" element={<Login/>}/>
+        <Route path='/User' element={<Profile/>}/>
+        <Route path='/SignUp' element={<SignUp/>}/>
+
    </Routes>
    <Footer/>
  </BrowserRouter>
+ </UserProvider>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
