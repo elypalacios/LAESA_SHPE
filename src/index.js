@@ -5,6 +5,7 @@ import PCED from './Pages/pced';
 import Membership from './Pages/membership';
 import Eboard from './Pages/eboard';
 import Calendar from './Pages/calendar';
+import DonationPage from './Pages/DonationPage';
 import reportWebVitals from './reportWebVitals';
 import Home from './Home';
 import Navbar from './components/header';
@@ -32,6 +33,7 @@ root.render(
         <Route path= "/Login" element={<Login/>}/>
         <Route path='/User' element={<Profile/>}/>
         <Route path='/SignUp' element={<SignUp/>}/>
+        <Route path='/Donate' element={<DonationPage/>}/>
 
    </Routes>
    <Footer/>
