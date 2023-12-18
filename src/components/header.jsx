@@ -1,6 +1,7 @@
 import logo from '../images/LAESA_Logo_Transparent.png'
 import {Link } from 'react-router-dom';
 import './header.css'
+import React from 'react';
 
 function Navbar(){
     return(

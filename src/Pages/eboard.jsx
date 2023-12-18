@@ -26,6 +26,8 @@ import valentin from '../images/valentin.png'
 import kayley from '../images/kayley.png'
 import brenda from '../images/brenda.png'
 import './eboard.css'
+import React from 'react';
+
 
 function Eboard(){
     return(

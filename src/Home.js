@@ -1,4 +1,6 @@
 import './App.css';
+import React from 'react';
+
 import shpe from './images/shpeconference.png'
 
 function App() {

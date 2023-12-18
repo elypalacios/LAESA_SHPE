@@ -1,5 +1,6 @@
 import './footer.css'
 import shpelogo from '../images/shpelogo.png'
+import React from 'react';
 
 function Footer(){
     return(
