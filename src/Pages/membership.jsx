@@ -42,17 +42,20 @@ function Membership(){
             <ul> Step Two</ul>
                 <li> Our membership fee goes towards events like General Body Meetings, food , and resources for the club room which our members use. You can add your product to the cart and pay with your credit card.</li>
                 <li>Early Birds: $10 (Before GBM 1) 
-                    <button onClick={() => handleCheckout('EarlyBirds')}>Checkout</button>
+                    <button
+                    style={{ display: 'block', width: '100px', height: '40px', margin:'10px' }}
+                    onClick={() => handleCheckout('EarlyBirds')}>Checkout</button>
                 </li>
                 <li>Regular Amount: $15 
-                    <button onClick={() => handleCheckout('Regular')}>Checkout</button>
+                    <button 
+                   style={{ display: 'block', width: '100px', height: '40px', margin:'10px' }}
+                   onClick={() => handleCheckout('Regular')}>Checkout</button>
                 </li>
-                <li> Insert the vemon and other payment method in ormation and pictures</li>
+                {/* <li> Insert the vemon and other payment method information and pictures</li> */}
           <hr></hr>
             <ul> Step Three</ul>
-            {/* <Button variant="primary" size="lg"> */}
-          Click To Fill Out The Form
-        {/* </Button>  {' '} */}
+          {/* Click To Fill Out The Form */}
+    
           
             <li> Fill out the following form above so we can include you in our mailing list and be updated of any on-going events.</li>
             <hr></hr>
