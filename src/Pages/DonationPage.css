@@ -1,47 +1,15 @@
 .donation-container {
-    background-color: #bdd6fa; /* Similar to your .membership class */
-    padding: 250px;
-    margin: 80px 100px;
-    border-radius: 20px;
+    background-color: #bdd6fa; 
+    padding: 30px;
+    margin: 35px 120px;
+    border-radius: 10px;
     box-sizing: border-box;
-    text-align: center;
+    border-color: black;
+    border-style: solid;
 }
 
 .donation-container h1 {
-    font-size: 60px;
+    font-size: 20px;
     padding-bottom: 20px;
-}
 
-.donation-input {
-    font-size: 50px; /* Even larger font size */
-    padding: 30px 40px; /* More padding */
-    margin: 40px 0;
-    border-radius: 10px;
-    border: 2px solid #002879; /* Thicker border */
-    width: 60%; /* Adjust width as needed */
-}
-
-.donation-button {
-    font-size: 30px; /* Larger font size */
-    padding: 20px 40px; /* More padding */
-    width: 30%; /* Adjust width as needed */
-    background-color: #002879;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.donation-button:hover {
-    background-color: #003fA0; /* Slightly darker for hover effect */
-}
-
-@media(max-width: 800px) {
-    .donation-container {
-        margin: 30px 50px;
-    }
-
-    .donation-container h1 {
-        font-size: 25px;
-    }
 }

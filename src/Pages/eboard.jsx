@@ -104,6 +104,7 @@ As LAESA Secretary, I am excited to not only grow within LAESA, but also to help
                     </h1>
                 <div>
 
+                <div className='term'>  2022 - 2023 </div>
                 <div className='rowsss'>
                     <div>
                     <img src={Jensy}/>  
@@ -140,9 +141,9 @@ As LAESA Secretary, I am excited to not only grow within LAESA, but also to help
                         
                 </div>
         
-
+                <div className='term'>  2021 - 2022 </div>
                 <div className='rowsss'>
-          
+                    
                     <div>
                     <img src={derwick}/>
                     <h1> President</h1>
@@ -180,8 +181,8 @@ As LAESA Secretary, I am excited to not only grow within LAESA, but also to help
                   
                 </div>
 
+                <div className='term'>  2020 - 2021 </div>
                 <div className='rowsss'>
-
                     <div>
                     <img src={richard1}/>
                     <h1> President</h1>
@@ -213,6 +214,7 @@ As LAESA Secretary, I am excited to not only grow within LAESA, but also to help
                     </div>
                 </div>
 
+                <div className='term'>  2019 - 2020 </div>
                 <div className='rowsss'>
                     <div>
                     <img src={luis}/>
@@ -245,35 +247,37 @@ As LAESA Secretary, I am excited to not only grow within LAESA, but also to help
                     </div>
                 </div>
 
+                <div className='term'>  2018 - 2019 </div>
+
                 <div className='rowsss'>
                     <div>
                     <img src={rafael}/>
                     <h1> President</h1>
-                    <h3> Luis Rodriguez </h3>
+                    <h3> Rafael </h3>
                     </div>
 
                     <div>
                     <img src={arelis}/>
                     <h1> External </h1>
-                    <h3> Evan Vazquez </h3>
+                    <h3> Arelis  </h3>
                     </div>
 
                     <div>
                     <img src={valentin}/>
                     <h1> Internal </h1>
-                    <h3> Richard Martinez </h3>
+                    <h3> Valentin </h3>
                     </div>
                     
                     <div>
                     <img src={kayley}/>
                     <h1> Secretary</h1>
-                    <h3> Gloria Hernandez </h3>
+                    <h3> Kayley  </h3>
                     </div>
 
                     <div>
                     <img src={brenda}/>
                     <h1> Treasurer</h1>
-                    <h3> Keivon Yang </h3>
+                    <h3> Brenda </h3>
                     </div>
 
                 </div>

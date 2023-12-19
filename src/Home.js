@@ -1,7 +1,6 @@
 import './App.css';
 import React from 'react';
-
-import shpe from './images/shpeconference.png'
+import shpe from './images/2023shpe.jpg'
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <div className='famila'>  
         <h1>MEET US!</h1>
           <img className='pic'src = {shpe} alt='2021'/> 
-         <h3> 2021 SHPE CONFERENCE</h3>
+         <h3> 2023 SHPE CONFERENCE</h3>
          </div>
       
       </section>
